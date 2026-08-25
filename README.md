@@ -1,19 +1,72 @@
-# 🇵🇰 SastaPakistan — Full Stack Daily Deals Platform
+# DealMatrix 🇵🇰
 
-A complete full-stack web application for Pakistani local businesses to post daily discounts and for customers to browse deals by city and category. Built with **Node.js/Express backend** + **React frontend**.
+A Pakistan-focused local deals and discounts platform where users can discover food, grocery, textiles, electronics, mobile, and other local offers.
 
-## Features (from VoucherVault + CouponZo)
+## Features
 
-- **Dark theme dashboard** with stats (inspired by VoucherVault)
-- **Business analytics** — total deals, active deals, savings (inspired by CouponZo)
-- **Browse deals** by city (Karachi, Lahore, Islamabad, etc.)
-- **Filter by category** (Food, Grocery, Textiles, Electronics, Mobile)
-- **Search** deals, stores, products
-- **Post deals** from the Dukaan panel
-- **WhatsApp integration** — one-click contact store
-- **PKR currency** formatting
-- **Expiry tracking** with urgency indicators
-- **Bar charts** for deals by category and city
-- **JSON file database** — zero config, inspectable
+* 🏷️ Browse local deals
+* 🔎 Search and filter deals
+* 📍 City and area-based deals
+* 💰 Discount and savings display
+* ⏰ Deal expiry status
+* ❤️ Save favorite deals
+* 💬 Contact businesses through WhatsApp
+* 🏪 Business/store profiles
+* 🔥 Trending and flash deals
+* 👤 User dashboard
+* 📊 Seller dashboard
+* 🛡️ Admin management
+* 🤖 Future AI deal recommendations
+
+## Run the Project
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+### Backend
+
+Open another terminal:
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+Backend runs on:
+
+```text
+http://localhost:4000
+```
+
+## Tech Stack
+
+* React + TypeScript
+* Vite
+* Node.js
+* PostgreSQL
+* Tailwind CSS
 
 ## Project Structure
+
+```text
+dealmatrix/
+├── frontend/
+├── backend/
+└── README.md
+```
+
+## Goal
+
+**DealMatrix — Discover. Compare. Save. 🇵🇰**
